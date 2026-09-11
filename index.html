@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudyHub — Helping African Students Build Their Future</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#" class="nav__logo">
+      <span class="nav__logo-mark">SH</span>
+      <span class="nav__logo-text">StudyHub</span>
+    </a>
+    <nav class="nav__links">
+      <a href="#scholarships">Scholarships</a>
+      <a href="#internships">Internships</a>
+      <a href="#mentors">Mentors</a>
+      <a href="#resources">Resources</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="nav__actions">
+      <a href="#" class="btn btn--ghost">Sign In</a>
+      <a href="#" class="btn btn--primary">Get Started</a>
+    </div>
+    <button class="nav__burger" id="navBurger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== MOBILE MENU ===== -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#scholarships">Scholarships</a>
+  <a href="#internships">Internships</a>
+  <a href="#mentors">Mentors</a>
+  <a href="#resources">Resources</a>
+  <a href="#about">About</a>
+  <div class="mobile-menu__actions">
+    <a href="#" class="btn btn--ghost">Sign In</a>
+    <a href="#" class="btn btn--primary">Get Started</a>
+  </div>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero__inner">
+    <div class="hero__content">
+      <span class="eyebrow">For students across Africa</span>
+      <h1 class="hero__title">Helping African Students <span class="text-gradient">Build Their Future</span></h1>
+      <p class="hero__subtitle">StudyHub brings scholarships, internships, mentors, and career opportunities together in one place — so you spend less time searching and more time growing.</p>
+      <div class="hero__actions">
+        <a href="#opportunities" class="btn btn--primary btn--lg">Explore Opportunities</a>
+        <a href="#mentors" class="btn btn--outline btn--lg">Become a Mentor</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__number" data-count="50000">0</span><span class="stat__suffix">+</span>
+          <span class="stat__label">Students</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-count="1500">0</span><span class="stat__suffix">+</span>
+          <span class="stat__label">Scholarships</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-count="300">0</span><span class="stat__suffix">+</span>
+          <span class="stat__label">Companies</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-count="22">0</span>
+          <span class="stat__label">Countries</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="orb orb--1"></div>
+      <div class="orb orb--2"></div>
+
+      <div class="float-card float-card--1">
+        <div class="float-card__badge float-card__badge--emerald">Scholarship Found</div>
+        <h4>University of Toronto</h4>
+        <p class="float-card__sub">Full Tuition</p>
+        <a href="#" class="float-card__link">Apply →</a>
+      </div>
+
+      <div class="float-card float-card--2">
+        <div class="float-card__badge float-card__badge--indigo">Frontend Internship</div>
+        <h4>Google</h4>
+        <p class="float-card__sub">Remote</p>
+        <span class="float-card__tag">Closing in 5 days</span>
+      </div>
+
+      <div class="float-card float-card--3">
+        <div class="float-card__badge float-card__badge--emerald">Career Mentor</div>
+        <h4>Software Engineer</h4>
+        <p class="float-card__sub">1:1 guidance, weekly slots</p>
+        <a href="#" class="float-card__link">Book Session →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CATEGORIES ===== -->
+<section class="section" id="opportunities">
+  <div class="container">
+    <span class="eyebrow">What you'll find</span>
+    <h2 class="section__title">Every opportunity, one hub</h2>
+    <p class="section__subtitle">Whatever stage you're at, StudyHub has a path forward.</p>
+
+    <div class="category-grid">
+      <div class="category-card">
+        <div class="category-card__icon">🎓</div>
+        <h3>Scholarships</h3>
+        <p>Fully and partially funded programs from universities worldwide, matched to your profile.</p>
+      </div>
+      <div class="category-card">
+        <div class="category-card__icon">💼</div>
+        <h3>Jobs</h3>
+        <p>Internships and entry-level roles from companies actively hiring African talent.</p>
+      </div>
+      <div class="category-card">
+        <div class="category-card__icon">📚</div>
+        <h3>Courses</h3>
+        <p>Free and low-cost courses to help you build the skills employers are looking for.</p>
+      </div>
+      <div class="category-card">
+        <div class="category-card__icon">🤝</div>
+        <h3>Mentorship</h3>
+        <p>Book time with professionals who've walked the path you're trying to walk.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURED OPPORTUNITIES ===== -->
+<section class="section section--muted" id="scholarships">
+  <div class="container">
+    <div class="section__header-row">
+      <div>
+        <span class="eyebrow">Featured</span>
+        <h2 class="section__title">Opportunities closing soon</h2>
+      </div>
+      <a href="#" class="link-arrow">View all opportunities →</a>
+    </div>
+
+    <div class="opp-list">
+      <article class="opp-card">
+        <div class="opp-card__logo">🇨🇦</div>
+        <div class="opp-card__body">
+          <h4>MasterCard Foundation Scholars Program</h4>
+          <p class="opp-card__meta">University of Toronto · Canada</p>
+          <div class="opp-card__tags">
+            <span class="tag tag--indigo">Undergraduate</span>
+            <span class="tag tag--emerald">Full Tuition</span>
+          </div>
+        </div>
+        <div class="opp-card__side">
+          <span class="opp-card__deadline">Closes in 12 days</span>
+          <a href="#" class="btn btn--sm btn--primary">Apply</a>
+        </div>
+      </article>
+
+      <article class="opp-card">
+        <div class="opp-card__logo">💻</div>
+        <div class="opp-card__body">
+          <h4>Frontend Engineering Internship</h4>
+          <p class="opp-card__meta">Google · Remote</p>
+          <div class="opp-card__tags">
+            <span class="tag tag--indigo">Internship</span>
+            <span class="tag tag--gray">Remote</span>
+          </div>
+        </div>
+        <div class="opp-card__side">
+          <span class="opp-card__deadline">Closes in 5 days</span>
+          <a href="#" class="btn btn--sm btn--primary">Apply</a>
+        </div>
+      </article>
+
+      <article class="opp-card">
+        <div class="opp-card__logo">🇩🇪</div>
+        <div class="opp-card__body">
+          <h4>DAAD Postgraduate Scholarship</h4>
+          <p class="opp-card__meta">Technical University of Munich · Germany</p>
+          <div class="opp-card__tags">
+            <span class="tag tag--indigo">Masters</span>
+            <span class="tag tag--emerald">Full Funding</span>
+          </div>
+        </div>
+        <div class="opp-card__side">
+          <span class="opp-card__deadline">Closes in 21 days</span>
+          <a href="#" class="btn btn--sm btn--primary">Apply</a>
+        </div>
+      </article>
+
+      <article class="opp-card">
+        <div class="opp-card__logo">📊</div>
+        <div class="opp-card__body">
+          <h4>Product Analyst Graduate Program</h4>
+          <p class="opp-card__meta">Flutterwave · Lagos, Nigeria</p>
+          <div class="opp-card__tags">
+            <span class="tag tag--indigo">Graduate Program</span>
+            <span class="tag tag--gray">On-site</span>
+          </div>
+        </div>
+        <div class="opp-card__side">
+          <span class="opp-card__deadline">Closes in 9 days</span>
+          <a href="#" class="btn btn--sm btn--primary">Apply</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SUCCESS STORIES ===== -->
+<section class="section" id="stories">
+  <div class="container container--wide">
+    <span class="eyebrow">Real outcomes</span>
+    <h2 class="section__title">Success stories</h2>
+  </div>
+
+  <div class="stories-scroll">
+    <article class="story-card">
+      <div class="story-card__photo" style="background-image:url('https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&h=400&fit=crop&crop=faces')"></div>
+      <p class="story-card__quote">"StudyHub matched me with a full scholarship I would never have found on my own. I'm now studying Computer Science in Toronto."</p>
+      <p class="story-card__name">Amara O. <span>— Nigeria, University of Toronto</span></p>
+    </article>
+    <article class="story-card">
+      <div class="story-card__photo" style="background-image:url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=faces')"></div>
+      <p class="story-card__quote">"My mentor on StudyHub helped me prepare for interviews. Three months later I landed a remote internship at a Y Combinator startup."</p>
+      <p class="story-card__name">Kwame A. <span>— Ghana, Remote Internship</span></p>
+    </article>
+    <article class="story-card">
+      <div class="story-card__photo" style="background-image:url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=faces')"></div>
+      <p class="story-card__quote">"I found the DAAD scholarship listing on StudyHub and applied the same week. Now I'm pursuing my Masters in Germany, fully funded."</p>
+      <p class="story-card__name">Fatima N. <span>— Kenya, TU Munich</span></p>
+    </article>
+    <article class="story-card">
+      <div class="story-card__photo" style="background-image:url('https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=faces')"></div>
+      <p class="story-card__quote">"The courses section helped me learn the exact skills the job description asked for. I got hired two weeks after finishing."</p>
+      <p class="story-card__name">Tendai M. <span>— Zimbabwe, Data Analyst</span></p>
+    </article>
+  </div>
+</section>
+
+<!-- ===== INTERACTIVE MAP ===== -->
+<section class="section section--muted" id="map">
+  <div class="container">
+    <span class="eyebrow">Where we work</span>
+    <h2 class="section__title">Across the continent</h2>
+    <p class="section__subtitle">Select a country to see what's available near you.</p>
+
+    <div class="map-wrap">
+      <div class="map-svg" id="mapSvg">
+        <svg viewBox="0 0 500 520" xmlns="http://www.w3.org/2000/svg" aria-label="Map of Africa with selectable countries">
+          <!-- simplified continent silhouette -->
+          <path class="map-bg" d="M230 20 C 300 15 340 45 350 80 C 380 90 410 120 400 150 C 430 170 440 210 420 240 C 440 270 430 310 400 330 C 410 370 390 410 360 430 C 355 460 330 490 300 500 C 270 510 250 495 240 470 C 210 480 190 460 195 430 C 160 425 140 400 150 370 C 110 360 95 330 110 300 C 80 285 75 250 95 225 C 75 200 85 165 115 150 C 105 120 125 90 160 80 C 165 50 195 25 230 20 Z" />
+
+          <!-- Nigeria -->
+          <path class="map-country" data-country="nigeria" d="M160 220 L200 215 L215 245 L200 275 L165 270 L150 245 Z"/>
+          <!-- Kenya -->
+          <path class="map-country" data-country="kenya" d="M300 260 L335 255 L345 290 L320 310 L295 295 Z"/>
+          <!-- Ghana -->
+          <path class="map-country" data-country="ghana" d="M120 250 L150 248 L155 280 L130 285 L115 270 Z"/>
+          <!-- Egypt -->
+          <path class="map-country" data-country="egypt" d="M270 90 L320 85 L325 130 L280 135 Z"/>
+          <!-- South Africa -->
+          <path class="map-country" data-country="southafrica" d="M255 420 L300 415 L310 450 L270 465 L245 445 Z"/>
+        </svg>
+      </div>
+
+      <div class="map-info" id="mapInfo">
+        <h3 id="mapCountryName">Select a country</h3>
+        <div class="map-info__grid" id="mapCountryData">
+          <p class="map-info__placeholder">Click a highlighted region on the map to view scholarships, internships, partners and student communities in that country.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section class="section how-it-works">
+  <div class="container container--narrow">
+    <span class="eyebrow">Simple by design</span>
+    <h2 class="section__title">How it works</h2>
+
+    <div class="hiw-step" data-step="1">
+      <span class="hiw-step__num">Search</span>
+      <p>Tell us your field, level, and goals. We surface scholarships, internships, and mentors matched to you.</p>
+    </div>
+    <div class="hiw-arrow">↓</div>
+    <div class="hiw-step" data-step="2">
+      <span class="hiw-step__num">Apply</span>
+      <p>Track every application in one dashboard, with deadline reminders so nothing slips through.</p>
+    </div>
+    <div class="hiw-arrow">↓</div>
+    <div class="hiw-step" data-step="3">
+      <span class="hiw-step__num">Get Connected</span>
+      <p>Join a community of students and mentors who help you prepare, apply, and follow through.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DASHBOARD PREVIEW ===== -->
+<section class="section section--dark" id="dashboard">
+  <div class="container">
+    <span class="eyebrow eyebrow--light">Your command center</span>
+    <h2 class="section__title section__title--light">A dashboard built for staying on track</h2>
+    <p class="section__subtitle section__subtitle--light">Everything you're working toward, in one view.</p>
+
+    <div class="dashboard-mock">
+      <div class="dashboard-mock__sidebar">
+        <div class="dm-logo">SH</div>
+        <div class="dm-nav-item dm-nav-item--active">Overview</div>
+        <div class="dm-nav-item">Applications</div>
+        <div class="dm-nav-item">Saved</div>
+        <div class="dm-nav-item">Messages</div>
+        <div class="dm-nav-item">Calendar</div>
+      </div>
+      <div class="dashboard-mock__main">
+        <div class="dm-row">
+          <div class="dm-card">
+            <p class="dm-card__label">Upcoming Deadlines</p>
+            <div class="dm-deadline"><span>Google Internship</span><span class="dm-pill dm-pill--warn">5 days</span></div>
+            <div class="dm-deadline"><span>MasterCard Scholars</span><span class="dm-pill dm-pill--warn">12 days</span></div>
+            <div class="dm-deadline"><span>DAAD Scholarship</span><span class="dm-pill">21 days</span></div>
+          </div>
+          <div class="dm-card">
+            <p class="dm-card__label">Saved Scholarships</p>
+            <div class="dm-saved-item">University of Toronto — Full Tuition</div>
+            <div class="dm-saved-item">TU Munich — Full Funding</div>
+            <div class="dm-saved-item">MEXT Japan — Full Funding</div>
+          </div>
+        </div>
+        <div class="dm-row">
+          <div class="dm-card dm-card--wide">
+            <p class="dm-card__label">Applications</p>
+            <div class="dm-progress"><span>Google — Frontend Internship</span><div class="dm-bar"><div class="dm-bar__fill" style="width:80%"></div></div></div>
+            <div class="dm-progress"><span>Flutterwave — Graduate Program</span><div class="dm-bar"><div class="dm-bar__fill" style="width:45%"></div></div></div>
+            <div class="dm-progress"><span>University of Toronto</span><div class="dm-bar"><div class="dm-bar__fill" style="width:100%"></div></div></div>
+          </div>
+          <div class="dm-card">
+            <p class="dm-card__label">Messages</p>
+            <div class="dm-msg"><strong>Mentor · Chidi E.</strong><span>Sent you feedback on your essay</span></div>
+            <div class="dm-msg"><strong>StudyHub Team</strong><span>Your application was received</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="section" id="mentors">
+  <div class="container">
+    <span class="eyebrow">Loved by students</span>
+    <h2 class="section__title">Testimonials</h2>
+
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-card__top">
+          <div class="testimonial-card__avatar" style="background-image:url('https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=200&h=200&fit=crop&crop=faces')"></div>
+          <div>
+            <p class="testimonial-card__name">Chidi Eze</p>
+            <p class="testimonial-card__meta">Nigeria · Covenant University</p>
+          </div>
+        </div>
+        <p>"I applied to four scholarships through StudyHub and got into two. The tracker kept me from missing any deadlines."</p>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-card__top">
+          <div class="testimonial-card__avatar" style="background-image:url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=faces')"></div>
+          <div>
+            <p class="testimonial-card__name">Aisha Bello</p>
+            <p class="testimonial-card__meta">Kenya · University of Nairobi</p>
+          </div>
+        </div>
+        <p>"My mentor session felt like talking to an older sibling who already made it. Practical advice, no fluff."</p>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-card__top">
+          <div class="testimonial-card__avatar" style="background-image:url('https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=200&h=200&fit=crop&crop=faces')"></div>
+          <div>
+            <p class="testimonial-card__name">Kojo Mensah</p>
+            <p class="testimonial-card__meta">Ghana · KNUST</p>
+          </div>
+        </div>
+        <p>"I found my remote internship in under a month. The listings are actually current, unlike other sites I've tried."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section section--muted" id="resources">
+  <div class="container container--narrow">
+    <span class="eyebrow">Questions</span>
+    <h2 class="section__title">Frequently asked questions</h2>
+
+    <div class="faq">
+      <div class="faq-item">
+        <button class="faq-item__q">Is StudyHub free to use? <span class="faq-item__icon">+</span></button>
+        <div class="faq-item__a"><p>Yes. Browsing and applying to opportunities on StudyHub is completely free for students.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q">How are opportunities verified? <span class="faq-item__icon">+</span></button>
+        <div class="faq-item__a"><p>Every scholarship, internship, and partner is reviewed by our team before it's published, and listings are refreshed regularly to remove expired ones.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q">Can I become a mentor? <span class="faq-item__icon">+</span></button>
+        <div class="faq-item__a"><p>Absolutely. If you're working in your field and want to give back, you can apply to become a mentor from the "Become a Mentor" button above.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q">Which countries does StudyHub support? <span class="faq-item__icon">+</span></button>
+        <div class="faq-item__a"><p>We currently support students across 22 African countries, with new countries added as our partner network grows.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" id="about">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#" class="nav__logo nav__logo--footer">
+          <span class="nav__logo-mark">SH</span>
+          <span class="nav__logo-text">StudyHub</span>
+        </a>
+        <p>Scholarships, internships, mentors, and courses — built for African students.</p>
+        <div class="footer__socials">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h5>Resources</h5>
+        <a href="#">Scholarships</a>
+        <a href="#">Internships</a>
+        <a href="#">Courses</a>
+        <a href="#">Mentors</a>
+      </div>
+      <div class="footer__col">
+        <h5>Company</h5>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy</a>
+      </div>
+      <div class="footer__col footer__col--newsletter">
+        <h5>Stay in the loop</h5>
+        <p>New scholarships and internships, straight to your inbox.</p>
+        <form class="footer__form" id="newsletterForm">
+          <input type="email" placeholder="you@email.com" required>
+          <button type="submit" class="btn btn--primary btn--sm">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 StudyHub. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
